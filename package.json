@@ -1,0 +1,19 @@
+{
+    "name": "Dicebear_Server",
+    "version": "1.0.0",
+    "keywords": [
+        "util",
+        "functional",
+        "server",
+        "client",
+        "browser"
+    ],
+    "author": "Florian",
+    "contributors": [],
+    "dependencies": {
+        "@dicebear/avatars": "*",
+        "@dicebear/avatars-male-sprites": "*",
+        "@dicebear/avatars-female-sprites": "*",
+        "express": "^4.0"
+    }
+}
