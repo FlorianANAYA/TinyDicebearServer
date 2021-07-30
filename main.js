@@ -22,8 +22,8 @@ function main()
         console.log('Dicebear implementation for SimEvent running at http://localhost:' + port);
     });
     
-    expressApp.get(/api\/male\/[\w\%\-]+\.svg$/i, maleRequest);
-    expressApp.get(/api\/female\/[\w\%\-]+\.svg$/i, femaleRequest);
+    expressApp.get(/api\/male\/[\w\%\\'-]+\.svg$/i, maleRequest);
+    expressApp.get(/api\/female\/[\w\%\\'-]+\.svg$/i, femaleRequest);
 }
 
 
